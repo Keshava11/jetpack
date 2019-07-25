@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="80dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/test_btn"
+        android:layout_width="wrap_content"
+        android:text="BUTTON"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"/>
+
+    <TextView
+        android:id="@+id/sim_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/expected_closer"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:text="Main Activity"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/expected_closer1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:text="Main Activity"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/expected_closer2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:text="Main Activity"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/expected_closer3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minWidth="100dp"
+            android:text="Main Activity"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/secondary_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secondary Button" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
